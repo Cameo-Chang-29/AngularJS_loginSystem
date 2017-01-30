@@ -1,0 +1,41 @@
+<div style="padding:10px; background-color: #bed8cd; color: white;" ng-controller="signupCntrl">
+    <h1>Sign Up</h1>
+    <table>
+        <tr>
+            <td><span style="color: red;">*</span>Username</td>
+            <td><input type="text" id="username" placeholder="Username" ng-model="user_username" required/></td>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Password</td>
+            <td><input type="password" id="password" placeholder="Password" ng-model="user_password" required/></td>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Firstname</td>
+            <td><input type="text" id="firstname" placeholder="Firstname" ng-model="user_firstname" required/></td>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Lastname</td>
+            <td><input type="text" id="lastname" placeholder="Lastname" ng-model="user_lastname" required/></td>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Email</td>
+            <td><input type="email" id="email" placeholder="Email" ng-model="user_email" required/></td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;Phone</td>
+            <td><input type="text" id="phone" placeholder="Phone" ng-model="user_phone" /></td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;Location</td>
+            <td><input type="text" id="loc" placeholder="Location" ng-model="user_loc" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit" id="registBtn" ng-click="CreateNew()">Create An Account</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="location.href='signin.html';">Go Back</button></td>
+        </tr>
+    </table>
+</div>
