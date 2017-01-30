@@ -1,0 +1,41 @@
+<div style="padding:10px; background-color: #bed8cd; color: white;" ng-controller="detailCntrl">
+    <h1>Sign Up</h1>
+    <table>
+        <tr><!--edit placeholder-->
+            <td>Username</td>
+            <td><input type="text" id="username" placeholder="" ng-model="user_username" required/></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" id="password" placeholder="" ng-model="user_password" required/></td>
+        </tr>
+        <tr>
+            <td>>Firstname</td>
+            <td><input type="text" id="firstname" placeholder="" ng-model="user_firstname" required/></td>
+        </tr>
+        <tr>
+            <td>Lastname</td>
+            <td><input type="text" id="lastname" placeholder="" ng-model="user_lastname" required/></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="email" placeholder="" ng-model="user_email" required/></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><input type="text" id="phone" placeholder="" ng-model="user_phone" /></td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td><input type="text" id="loc" placeholder="" ng-model="user_loc" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit" id="editBtn" ng-click="Edit()">Update Info</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="location.href='profile.html';">Go Back</button></td>
+        </tr>
+    </table>
+</div>
