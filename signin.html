@@ -1,0 +1,19 @@
+<div style="background-color: grey; color: white; padding:10px;" >
+    <h1>Sign In</h1>
+    Please sign in with your username <br />
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" id="username" placeholder="Username" ng-model="username" required/></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" id="password" placeholder="Password" ng-model="password" required/></td>
+        </tr>
+        <tr>
+            <td><button id="signinBtn" ng-click="SignIn()">Sign In</button></td>
+            <td><button id="signupBtn" onclick="location.href = 'signup.html';">Register</button></td>
+        </tr>
+    </table>
+    
+</div>
