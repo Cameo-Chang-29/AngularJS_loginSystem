@@ -1,0 +1,26 @@
+<div>
+	<table>
+		<tr>
+		  <th>recipient</th>
+			<th>Sender</th>
+			<th>title</th>
+			<th>description</th>
+			<th>created_at</th>
+			<th>important</th>
+		</tr>
+		<tbody ng-repeat="message in messages">
+			<tr>
+			  <td>{{message.recipient}}</td>
+				<td>{{message.sender}}</td>
+				<td>{{message.title}}</td>
+				<td>{{message.description}}</td>
+				<td>{{message.created_at}}</td>
+				<td>{{message.important}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div>{{alert}}</div>
+<div>
+	<a href="#/profile">Go back</a>
+</div>
